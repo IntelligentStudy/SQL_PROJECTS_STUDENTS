@@ -57,8 +57,7 @@ Please take a look at some SQL standards below and try to think about the future
 - Please make sure you are using the latest version of PostgreSQL.
 - That is completely OK if you are using IDE to write a source code (aka SQL script).
 - To be assessed your solution must be in your GIT repository.
-- Your solutions will be evaluated by your piscine mates.
-- You should not leave in your directory any other file than those explicitly specified by the exercise instructions. It is recommended that you modify your `.gitignore` to avoid accidents.
+- Your solutions will be evaluated by mentor and might be by others.
 - Do you have a question? Ask your neighbor on the right. Otherwise, try with your neighbor on the left.
 - Your reference manual: mates / Internet / Google. 
 - Read the examples carefully. They may require things that are not otherwise specified in the subject.
