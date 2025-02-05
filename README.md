@@ -33,10 +33,10 @@
 | **Уровень** | **Проект**                                           | **Статус**            | **Дополнительные сведения**      |
 |-------------|------------------------------------------------------|-----------------------|----------------------------------|
 | **Junior**  | ![img_1.png](additional_content/misc/junior_cat.png) | Your path starts here | Здесь может быть что-то полезное |
-| START       | [первый проект](./junior/Start)                      | EXP 128               | Ваш первый проект                |
-| project2    | [второй проект](./junior/ST1)                        | EXP 256               | Ваш второй проект                |
-| project3    | [третий проект](./junior/ST2)                        | EXP 512               | Ваш третий проект                |
-| project4    | [четвёртый проект](./junior/End)                     | EXP 1024              | Ваш четвёртый проект             |
+| START       | [первый проект](projects/junior/Start)                      | EXP 128               | Ваш первый проект                |
+| project2    | [второй проект](projects/junior/ST1)                        | EXP 256               | Ваш второй проект                |
+| project3    | [третий проект](projects/junior/ST2)                        | EXP 512               | Ваш третий проект                |
+| project4    | [четвёртый проект](projects/junior/End)                     | EXP 1024              | Ваш четвёртый проект             |
 |             |                                                      |                       |                                  |
 | **Middle**  | `SQL_senior` [RetailAnalytics v1.0]()                | In progress           |                                  |
 | project1    | `DOOM` [RetailAnalytics v1.0]()                      |                       | In progress                      |
