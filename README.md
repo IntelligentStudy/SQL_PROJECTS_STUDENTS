@@ -30,26 +30,26 @@
 ## **Проекты**
 
 # Проекты по уровням
-| **Уровень** | **Проект**                            | **Статус**      | **Дополнительные Проекты** |
-|-------------|---------------------------------------|-----------------|----------------------------|
-| **Junior**  |                                       | ученический лвл |                            |
-| project1    | [первый проект](./junior/Start)       | NoExp yet       |                            |
-| project2    | [второй проект](./junior/ST1)         | NoExp yet       |                            |
-| project3    | [третий проект](./junior/ST2)         | NoExp yet       |                            |
-| project4    | [четвёртый проект](./junior/End)      | NoExp yet       |                            |
-|             |                                       |                 |                            |
-| **Middle**  | `SQL_senior` [RetailAnalytics v1.0]() | In progress     |                            |
-| project1    | `DOOM` [RetailAnalytics v1.0]()       |                 | In progress                |
-| project2    | `SQL_senior` [RetailAnalytics v1.0]() | In progress     |                            |
-| project3    | `DOOM` [RetailAnalytics v1.0]()       |                 | In progress                |
-| project4    | `SQL_senior` [RetailAnalytics v1.0]() | In progress     |                            |
-|             | `DOOM` [RetailAnalytics v1.0]()       |                 | In progress                |
-| **Senior**  | `SQL_senior` [RetailAnalytics v1.0]() | In progress     |                            |
-| project1    | `DOOM` [RetailAnalytics v1.0]()       |                 | In progress                |
-| project2    | `SQL_senior` [RetailAnalytics v1.0]() | In progress     |                            |
-| project3    | `DOOM` [RetailAnalytics v1.0]()       |                 | In progress                |
-| project4    | `SQL_senior` [RetailAnalytics v1.0]() | In progress     |                            |
-|             | `DOOM` [RetailAnalytics v1.0]()       |                 | In progress                |
+| **Уровень** | **Проект**                                           | **Статус**            | **Дополнительные сведения**      |
+|-------------|------------------------------------------------------|-----------------------|----------------------------------|
+| **Junior**  | ![img_1.png](additional_content/misc/junior_cat.png) | Your path starts here | Здесь может быть что-то полезное |
+| START       | [первый проект](./junior/Start)                      | EXP 128               | Ваш первый проект                |
+| project2    | [второй проект](./junior/ST1)                        | EXP 256               | Ваш второй проект                |
+| project3    | [третий проект](./junior/ST2)                        | EXP 512               | Ваш третий проект                |
+| project4    | [четвёртый проект](./junior/End)                     | EXP 1024              | Ваш четвёртый проект             |
+|             |                                                      |                       |                                  |
+| **Middle**  | `SQL_senior` [RetailAnalytics v1.0]()                | In progress           |                                  |
+| project1    | `DOOM` [RetailAnalytics v1.0]()                      |                       | In progress                      |
+| project2    | `SQL_senior` [RetailAnalytics v1.0]()                | In progress           |                                  |
+| project3    | `DOOM` [RetailAnalytics v1.0]()                      |                       | In progress                      |
+| project4    | `SQL_senior` [RetailAnalytics v1.0]()                | In progress           |                                  |
+|             | `DOOM` [RetailAnalytics v1.0]()                      |                       | In progress                      |
+| **Senior**  | `SQL_senior` [RetailAnalytics v1.0]()                | In progress           |                                  |
+| project1    | `DOOM` [RetailAnalytics v1.0]()                      |                       | In progress                      |
+| project2    | `SQL_senior` [RetailAnalytics v1.0]()                | In progress           |                                  |
+| project3    | `DOOM` [RetailAnalytics v1.0]()                      |                       | In progress                      |
+| project4    | `SQL_senior` [RetailAnalytics v1.0]()                | In progress           |                                  |
+|             | `DOOM` [RetailAnalytics v1.0]()                      |                       | In progress                      |
 ## Общее количество проектов по уровням
 
 - **Junior**: 4 проекта
@@ -65,9 +65,9 @@
 1. Открыть DBeaver
 2. Найти connect to a database
 скорее всего выглядит так
-![img_1.png](img_1.png)
+![img_1.png](additional_content/misc/img_1.png)
 3. далее подключаетесь к БД, для этого выбираете PostgreSQL 
-![img.png](img.png)
+![img.png](additional_content/misc/img.png)
 4. вводите данные и идёте заниматься с cmd скриптом
 
 Далее
@@ -80,8 +80,8 @@
 6. далее вставляем скрипт из текущего проекта(Если вы находитесь на 1 проекте то для вас соответственно он находится в
 junior/Start/materials/model.sql т.е в пути меняется только название проекта) вы открываете файл и скопированный текст вставляете в psql консоль
 7. нажимаете enter
-8. Следуйте в DBaver, нажмите правой кнопкой на postgres, нажмите обновить![img_3.png](img_3.png). 
-9. Если видите следующее в DBeaver то, всё готово![img_2.png](img_2.png)
+8. Следуйте в DBaver, нажмите правой кнопкой на postgres, нажмите обновить![img_3.png](additional_content/misc/img_3.png). 
+9. Если видите следующее в DBeaver то, всё готово![img_2.png](additional_content/misc/img_2.png)
 Изучите работу со скриптами и переходите к выполнению заданий начиная от Start.
 чтобы подключиться к бд через DBeaver:
 правой кнопкой по postgres, свойства, вписываем пароль password
@@ -317,7 +317,7 @@ JOIN выполняет соединение строк из таблиц на �
 
 - `FULL JOIN` (полное соединение): Возвращает все строки из обеих таблиц,опоставляя их по совпадающим значениям. Если нет совпадающих значений, то дляедостающих значений будут возвращены NULL значения.
 
-![joins](misc/type_JOINS.png)
+![joins](additional_content/misc/type_JOINS.png)
 
 `JOIN-условие` определяется с помощью ключевого слова ON, где указывается условие сравнения столбцов для объединения таблиц.
 
@@ -367,4 +367,4 @@ SELECT MIN(price) AS 'Минимальная цена', price AS 'Цена' FROM
 
 ## **Все основные операции**
 
-![base_cmd_SQL](misc/base_cmd_SQL.jpeg)
+![base_cmd_SQL](additional_content/misc/base_cmd_SQL.jpeg)
