@@ -66,9 +66,10 @@
 2. Найти connect to a database
 скорее всего выглядит так
 ![img_1.png](additional_content/misc/img_1.png)
-3. далее подключаетесь к БД, для этого выбираете PostgreSQL 
+3. далее подключаетесь к БД, для этого выбираете PostgreSQL.
+4. вводите пароль - password
 ![img.png](additional_content/misc/img.png)
-4. вводите данные и идёте заниматься с cmd скриптом
+5. вводите данные и идёте заниматься с cmd скриптом
 
 Далее
 1. Зайти в проводник
