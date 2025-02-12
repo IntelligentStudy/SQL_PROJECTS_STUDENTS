@@ -96,3 +96,7 @@ ENGLISH:
 
 DATABASES_SETUPS:
   - https://www.youtube.com/@IT-xk5lo
+
+
+HABR:
+https://habr.com/ru/articles/578744/    #POSTGRESQL + DOCKER COMPOSE
